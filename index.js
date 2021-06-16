@@ -21,12 +21,12 @@ document.querySelector(".img2").setAttribute("src", item2);
 
 if (item1 > item2)
 {
-  document.querySelector("h1").innerHTML = "<i class='fa-solid fa-flag-pennant'></i> Player 1 Wins";
+  document.querySelector("h1").innerHTML = "🚩 Player 1 Wins";
 }
 else if (item2 > item1) {
-    document.querySelector("h1").innerHTML = "Player 2 Wins <i class='fa-solid fa-flag-pennant'></i>";
+    document.querySelector("h1").innerHTML = "Player 2 Wins 🚩";
 }
 else {
-  document.querySelector("h1").textContent = "It is a draw";
+  document.querySelector("h1").textContent = "Draw!";
 }
 }
